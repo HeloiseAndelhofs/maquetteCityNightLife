@@ -1,2 +1,2 @@
-@import "./desktop.css" only screen and (min-width: 768px);
-@import "./responsive.css"  only screen and (min-width: 992px);
+@import "./css/desktop.css" only screen and (min-width: 768px);
+@import "./css/responsive.css"  only screen and (min-width: 992px);
