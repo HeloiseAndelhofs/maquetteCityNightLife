@@ -1,3 +1,71 @@
 body{
     background-image: url(../img/bgImage.jpeg);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;margin-top: 50px;justify-items: center;
+    margin-bottom: 50px;
+    font-size: 270%;
+}
+div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    max-width: 1500px;
+    font-weight: 400;
+    & img{
+        object-fit: cover;
+        width: 1500px;
+        max-height: 500px;
+    }
+    & h2{
+        color: white;
+        background-color: #1E1F23;
+        font-weight: 500;
+        width: fit-content;
+        padding: 20px;
+        align-self: center;
+        transform: rotate(-2.5deg);
+        margin: 30px;
+    }
+    & p:first-of-type{
+        max-width: 1050px;
+        text-align: center;
+        align-self: center;
+        font-size: 120%;
+    }
+    & .lorem{
+        padding: 50px 100px ;
+        margin: 0;
+    }
+    & :nth-child(4){
+        padding-bottom: 0;
+    }
+    & :last-child{
+        padding-bottom: 100px;
+    }
+}
+#myShoots{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #1E1F23;
+    max-width: 1500px;
+    & div{
+        margin: 10px;
+        & h2, h3{
+            color: white;
+            background-color: #121315;
+        }
+        & img{
+            width: 50%;
+            height: 500px;
+        }
+    }
+    
 }
