@@ -118,11 +118,15 @@ h1{
         color: white;
     }
 }
-div:last-of-type{
-    i{
-        color: white;
+#socials{
+    width: 500px;
+    margin-top: 30px;
+    margin: auto;
+    text-align: center;
+    & i{
+        color: #404249;
     }
-}
-i{
-    color: white;
+    & h2{
+        color: #404249;
+    }
 }

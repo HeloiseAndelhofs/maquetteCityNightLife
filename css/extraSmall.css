@@ -1,3 +1,139 @@
 body{
-    background-color: red;
+    background-image: url(../img/bgImage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;margin-top: 50px;
+    justify-items: center;
+    margin-bottom: 50px;
+    font-size: 270%;
+}
+#one{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    max-width: 398px;
+    font-weight: 400;
+    & img{
+        object-fit: cover;
+        max-width: 398px;
+        max-height: 253px;
+    }
+    & h2{
+        color: white;
+        background-color: #1E1F23;
+        font-weight: 500;
+        width: fit-content;
+        padding: 20px;
+        align-self: center;
+        transform: rotate(-2.5deg);
+        margin: 30px;
+    }
+    & p:first-of-type{
+        max-width: 1050px;
+        text-align: center;
+        align-self: center;
+        font-size: 130%;
+    }
+    & .lorem{
+        padding: 15px 30px;
+        margin: 0;
+        font-size: 130%;
+    }
+    & :nth-child(4){
+        padding-bottom: 0;
+    }
+    & :last-child{
+        padding-bottom: 30px;
+    }
+}
+#myShoots{
+    display: flex;
+    margin: auto;
+    background-color: #121315;
+    max-width: 398px;
+    justify-content: center;
+    & div{
+        background-color: #121315;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        & div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            & hr{
+                color: white;
+                width: 15%;
+            }
+            & h2, h3{
+                color: white;
+                margin-top: 10px;
+                }
+            & h2{
+                font-weight: 400;
+            }
+            & h3{
+                font-weight: 200;
+            }
+        }
+        & img{
+            width: 398px;
+            height: 350px;
+        }
+    }
+    
+}
+#opinion{
+    margin: auto;
+    max-width: 398px;
+    & div{
+        display: flex;
+        flex-direction: column;
+        & img{
+            width: 100%;
+            height: 500px;
+        }
+        & div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 500px;
+        }
+        & h2, p{
+            text-align: center;
+        }
+        & p{
+            padding: 40px;
+            font-size: 130%;
+        }
+    }
+    .odd{
+        background-color: white;
+    }
+    #even{
+        background-color: #121315;
+        color: white;
+        & div{
+            order: 2;
+        }
+    }
+}
+#socials{
+    width: 300px;
+    margin-top: 30px;
+    margin: auto;
+    text-align: center;
+    & i{
+        color: #404249;
+    }
+    & h2{
+        color: #404249;
+    }
 }
